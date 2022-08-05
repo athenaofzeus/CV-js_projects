@@ -667,12 +667,12 @@ body {
 
 .b-main__sklBtn {
   font-weight: 500;
-  font-size: 18px;
+  padding: 1.5vh 3.9vw;
+  font-size: calc(14px + 6 * (100vw / 1600));
   line-height: 27px;
   color: #FFFFFF;
   background: #263238;
   border-radius: 5px;
-  padding: 17px 64px;
   text-decoration: none;
   display: inline-block;
 }
@@ -1182,6 +1182,10 @@ body {
   .b-main__abt-full-abt-img {
     width: 100%;
   }
+}
+
+.b-main__sklRdn-box {
+  background-color: #F5F5F5;
 }
 
 .b-main__prc-full {
